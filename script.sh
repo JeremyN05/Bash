@@ -6,7 +6,7 @@ echo "Ingrese el nombre del usuario"
 
 read usuario
 
-sudo useradd -m -G "$grupos" "$usuario"
+sudo useradd -m -s /bin/bash -G "$grupos" "$usuario"
 
 sudo passwd "$usuario"
 
