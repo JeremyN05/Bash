@@ -32,7 +32,7 @@ read usuario
 
 sudo userdel -r "$usuario"
 
-echo "Usuario $usuario eliminado." 
+echo "Usuario $usuario eliminado."
 
 elif [ "$opcion" -eq 3 ]; then
 
